@@ -1,0 +1,76 @@
+
+.main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 4px solid var(--text-color);
+  box-shadow: 8px 8px 0px var(--background); 
+}
+
+.header {
+  background-color: var(--retro-blue);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  border-bottom: 4px solid var(--text-color);
+  text-transform: uppercase;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  letter-spacing: 4px;
+}
+
+.projects {
+  padding: 2rem 0;
+}
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: var(--retro-yellow);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--text-color);
+}
+
+.projectCard {
+  background-color: #fff;
+  border: 3px solid var(--text-color);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.projectCard:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 5px 5px 0px var(--retro-pink); 
+}
+
+.projectCard h3 {
+  color: var(--retro-green);
+  margin-bottom: 0.5rem;
+}
+
+.projectCard a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--retro-red-orange);
+  color: white;
+  border: 2px solid var(--text-color);
+  text-transform: uppercase;
+}
+
+.projectCard a:hover {
+  background-color: var(--retro-purple);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-top: 4px solid var(--text-color);
+  background-color: var(--retro-pink);
+  color: var(--text-color);
+}

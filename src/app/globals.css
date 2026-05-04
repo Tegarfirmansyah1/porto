@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  [data-theme='retro'] {
+    --color-primary: #FFC567;      
+    --color-secondary: #F288A4;    
+    --color-accent: #49bdfb;       
+    --color-background: #f0e6d2;   
+    --color-text: #2c2c2c;         
+    --color-success: #00995E;      
+    --color-info: #4968A6;         
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-hover: #058CD7;
+  }
+
+  [data-theme='modern-dark'] {
+    --color-primary: #262626;     
+    --color-secondary:  #404040;   
+    --color-accent: #0D0D0D;       
+    --color-background: #0D0D0D;   
+    --color-text: #E5E7EB;         
+    --color-success: #363636;      
+    --color-info: #737373;         
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-hover: #7b7a7a;
+  }
+
+  [data-theme='forest'] {
+    --color-primary: #059669;      
+    --color-secondary: #8C5627;    
+    --color-accent: #4e3a00;       
+    --color-background: #593825;   
+    --color-text: #ffcf94;         
+    --color-success: #a76510;      
+    --color-info: #6c5817;         
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-hover: #ffead1;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
