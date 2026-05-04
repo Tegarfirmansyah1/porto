@@ -64,4 +64,4 @@ Anda dapat menghubungi saya melalui:
 
   - **LinkedIn**: [Tegar Firmansyah](https://www.linkedin.com/in/tegar-firmansyah-081581244)
   - **GitHub**: [@Tegarfirmansyah1](https://github.com/Tegarfirmansyah1)
-  - **Instagram**: [@tegarfirmansyah\_343](https://www.instagram.com/tegarfirmansyah_343)
+  - **Instagram**: [@tegarfirmansyah\_343](https://www.instagram.com/tegarfirmansyah_00)
