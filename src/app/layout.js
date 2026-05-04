@@ -12,6 +12,8 @@ export const metadata = {
 verification: {
     google: 'BAdKHHR56G4z4xt0qZA7cjEjdBFv1BZdyWXB039gQms', 
   },
+  icons: {
+    icon: '/favicon.png'}
 };
 
 
