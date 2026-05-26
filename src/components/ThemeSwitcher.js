@@ -8,7 +8,7 @@ export default function ThemeSwitcher() {
     const { theme, setTheme } = useTheme();
 
     return (
-        <div className="p-2 pt-0 bg-text/5 rounded-lg flex items-center gap-2">
+        <div className="bg-text/5 rounded-lg flex items-center gap-2">
             <span className="text-lg font-retro text-text">Tema:</span>
             <div className="flex gap-1">
                 {themes.map((t) => (

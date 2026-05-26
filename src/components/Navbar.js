@@ -24,18 +24,18 @@ export default function Navbar() {
                     </div>
 
                     <div className="hidden md:flex space-x-8 font-retro text-lg">
-                        <a href="#home" className="text-text hover:text-hover transition duration-300">Home</a>
                         <a href="#projects" className="text-text hover:text-hover transition duration-300">Projects</a>
                         <a href="#skills" className="text-text hover:text-hover transition duration-300">Skills</a>
+                        <a href="#gallery" className="text-text hover:text-hover transition duration-300">Gallery</a>
                         <a href="#contact" className="text-text hover:text-hover transition duration-300">Contact</a>
                             <ThemeSwitcher />
                     </div>
                 </div>
                 <div className={`${isOpen ? 'block' : 'hidden'} md:hidden pb-4`}>
-                    <a href="#home" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Home</a>
                     <a href="#projects" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Projects</a>
                     <a href="#skills" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Skills</a>
-                    <a href="#contact" onClick={() => setIsOpen(false)} className="block py-2 text-center tex-text hover:bg-blue transition duration-300 rounded">Contact</a>
+                    <a href="#gallery" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Gallery</a>
+                    <a href="#contact" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Contact</a>
                         <ThemeSwitcher />
                 </div>
             </div>
