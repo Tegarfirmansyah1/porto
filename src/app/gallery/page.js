@@ -1,9 +1,11 @@
 import Link from 'next/link';
 import { supabase } from '@/lib/supabaseClient';
-import GalleryGrid from '@/components/GalleryGrid'; // Import komponen klien tadi
+import GalleryGrid from '@/components/GalleryGrid'; 
+
+export const dynamic = 'force-dynamic';
 
 export default async function FullGalleryPage() {
-    // Pengambilan data tetap di Server agar website memuat data dengan cepat
+    
     const { data: designs, error } = await supabase
         .from('gallery')
         .select('*')
