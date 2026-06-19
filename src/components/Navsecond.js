@@ -45,7 +45,7 @@ export default function NavSecond() {
                         </div>
                     </div>
                     <div className={`${isOpen ? 'block' : 'hidden'} md:hidden pb-4`}>
-                       <div className='m-[-10]'> <ThemeSwitcher /> </div>
+                       <div className='mr-[-10]'> <ThemeSwitcher /> </div>
                         <Link href="/admin/addGallery" className="mt-2 text-text font-bold hover:text-hover transition duration-300">
                         Gallery
                         </Link>

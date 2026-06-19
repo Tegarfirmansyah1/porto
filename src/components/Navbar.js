@@ -32,10 +32,10 @@ export default function Navbar() {
                     </div>
                 </div>
                 <div className={`${isOpen ? 'block' : 'hidden'} md:hidden pb-4`}>
-                    <a href="#projects" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Projects</a>
-                    <a href="#skills" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Skills</a>
-                    <a href="#gallery" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Gallery</a>
-                    <a href="#contact" onClick={() => setIsOpen(false)} className="block py-2 text-center text-text hover:bg-blue transition duration-300 rounded">Contact</a>
+                    <a href="#projects" onClick={() => setIsOpen(false)} className="block py-2 text-left text-text hover:bg-blue transition duration-300 rounded">Projects</a>
+                    <a href="#skills" onClick={() => setIsOpen(false)} className="block py-2 text-left text-text hover:bg-blue transition duration-300 rounded">Skills</a>
+                    <a href="#gallery" onClick={() => setIsOpen(false)} className="block py-2 text-left text-text hover:bg-blue transition duration-300 rounded">Gallery</a>
+                    <a href="#contact" onClick={() => setIsOpen(false)} className="block py-2 text-left text-text hover:bg-blue transition duration-300 rounded">Contact</a>
                         <ThemeSwitcher />
                 </div>
             </div>
